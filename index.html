@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ROOT · mycelium goods · subterranean objects</title>
+  <title>LIMBER · mycelium goods · subterranean objects</title>
   <!-- Typography: organic serif + grounded sans -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200;14..32,300;14..32,400;14..32,500;14..32,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
   <!-- Font Awesome 6 -->
@@ -16,7 +16,7 @@
       box-sizing: border-box;
     }
 
-    :root {
+    :LIMBER {
       --bg: #1e2018;
       --surface: #2c2f24;
       --surface-elevated: #3e4234;
@@ -62,7 +62,7 @@
     ::-webkit-scrollbar-thumb { background: var(--accent-glow); border-radius: 10px; }
 
     /* header — underground */
-    .root-header {
+    .LIMBER-header {
       position: fixed;
       width: 100%;
       top: 0;
@@ -72,7 +72,7 @@
       border-bottom: 1px solid var(--accent-subtle);
       transition: var(--transition);
     }
-    [data-theme="light"] .root-header {
+    [data-theme="light"] .LIMBER-header {
       background: rgba(245, 244, 234, 0.94);
     }
 
@@ -167,7 +167,7 @@
     }
 
     /* hero — forest floor */
-    .hero-root {
+    .hero-LIMBER {
       min-height: 92vh;
       display: flex;
       align-items: center;
@@ -176,7 +176,7 @@
       background-size: cover;
       background-position: 50% 30%;
     }
-    .hero-root::after {
+    .hero-LIMBER::after {
       content: '';
       position: absolute;
       inset: 0;
@@ -349,7 +349,7 @@
     .current-price { font-weight: 500; font-size: 1rem; }
     .old-price { font-size: 0.7rem; text-decoration: line-through; color: var(--text-muted); margin-left: 0.3rem; }
 
-    /* CART SIDEBAR — root cellar */
+    /* CART SIDEBAR — LIMBER cellar */
     .cart-overlay {
       position: fixed;
       inset: 0;
@@ -550,7 +550,7 @@
       backdrop-filter: blur(28px);
       transition: opacity 0.25s ease;
     }
-    .root-modal {
+    .LIMBER-modal {
       background: var(--surface);
       max-width: 540px;
       width: 100%;
@@ -641,13 +641,13 @@
 </head>
 <body>
 
-<!-- ENTRY MODAL - ROOT INVITATION -->
+<!-- ENTRY MODAL - LIMBER INVITATION -->
 <div id="entryModal" class="modal-overlay">
-  <div class="root-modal">
+  <div class="LIMBER-modal">
     <button id="closeModalBtn" class="modal-close-icon"><i class="fa-regular fa-leaf"></i></button>
     <div class="modal-icon-badge"><i class="fas fa-seedling"></i></div>
-    <h2 class="modal-title">ROOT</h2>
-    <p class="modal-description">Subterranean objects for the mycologically curious. Spore kits, root tonics, and the quiet wisdom of the underground. Descend.</p>
+    <h2 class="modal-title">LIMBER</h2>
+    <p class="modal-description">Subterranean objects for the mycologically curious. Spore kits, LIMBER tonics, and the quiet wisdom of the underground. Descend.</p>
     <div class="modal-buttons">
       <button id="enterBtn" class="btn-modal-primary">DESCEND UNDERGROUND</button>
       <button id="laterBtn" class="btn-modal-secondary">WANDER LATER</button>
@@ -655,14 +655,14 @@
   </div>
 </div>
 
-<header class="root-header">
+<header class="LIMBER-header">
   <div class="nav-container">
-    <div class="brand">ROOT<span> · mycelium</span></div>
+    <div class="brand">LIMBER<span> · mycelium</span></div>
     <nav class="nav-links">
       <a href="#shop">SPORE</a>
       <a href="#shop">TONIC</a>
       <a href="#shop">SUBTERRA</a>
-      <a href="#">ROOT</a>
+      <a href="#">LIMBER</a>
     </nav>
     <div class="utility-actions">
       <button id="themeToggle">🌞</button>
@@ -675,17 +675,17 @@
 </header>
 
 <main>
-  <section class="hero-root">
+  <section class="hero-LIMBER">
     <div class="hero-content">
       <div class="hero-sub">MYCELIAL · SUBTERRANEAN · DEEP</div>
-      <h1 class="hero-main-title">ROOT</h1>
+      <h1 class="hero-main-title">LIMBER</h1>
       <div class="hero-offer">First descent: <strong>15% off</strong> your first subterranean object</div>
       <a href="#shop" class="btn-primary">DESCEND UNDERGROUND →</a>
     </div>
   </section>
 
   <div class="collection-badge" id="shop">
-    <h2>Subterranean Edit · Mycelium & Root</h2>
+    <h2>Subterranean Edit · Mycelium & LIMBER</h2>
     <p>12 deep objects</p>
   </div>
 
@@ -694,9 +694,9 @@
 
 <footer>
   <div class="footer-inner">
-    <div class="footer-logo">ROOT</div>
+    <div class="footer-logo">LIMBER</div>
     <div class="footer-locations">PACIFIC NW · TASMANIA · SCOTLAND · JAPAN</div>
-    <p class="copyright" style="font-size:0.55rem; opacity:0.7;">© 2026 ROOT — beneath the surface, the network lives.</p>
+    <p class="copyright" style="font-size:0.55rem; opacity:0.7;">© 2026 LIMBER — beneath the surface, the network lives.</p>
   </div>
 </footer>
 
@@ -704,7 +704,7 @@
 <div id="cartOverlay" class="cart-overlay">
   <div class="cart-sidebar">
     <div class="cart-header">
-      <h3>ROOT BASKET</h3>
+      <h3>LIMBER BASKET</h3>
       <button class="close-cart" id="closeCartBtn"><i class="fas fa-times"></i></button>
     </div>
     <div class="cart-items" id="cartItemsContainer">
@@ -721,7 +721,7 @@
 </div>
 
 <script>
-  // ROOT COLLECTION — mushroom spores, root tonics, subterranean goods
+  // LIMBER COLLECTION — mushroom spores, LIMBER tonics, subterranean goods
   const products = [
     { id: 1, name: "Oyster Mushroom Kit", category: "SPORE", original: 45, discountPrice: 38, img: "https://images.unsplash.com/photo-1596558450268-7d2e6e484677?q=80&w=1740&auto=format&fit=crop", alt: "oyster kit" },
     { id: 2, name: "Reishi Tincture", category: "TONIC", original: 38, discountPrice: 32, img: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?q=80&w=1740&auto=format&fit=crop", alt: "reishi" },
@@ -729,7 +729,7 @@
     { id: 4, name: "Truffle Hunting Kit", category: "TOOL", original: 125, discountPrice: 106, img: "https://images.unsplash.com/photo-1584277175808-b8ce9c7c2ecb?q=80&w=1470&auto=format&fit=crop", alt: "truffle kit" },
     { id: 5, name: "Mycelium Spore Print", category: "ART", original: 28, discountPrice: 23, img: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1374&auto=format&fit=crop", alt: "spore print" },
     { id: 6, name: "Dried Chaga", category: "HERBAL", original: 32, discountPrice: 27, img: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?q=80&w=1740&auto=format&fit=crop", alt: "chaga" },
-    { id: 7, name: "Root Grow Kit", category: "GARDEN", original: 55, discountPrice: 46, img: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1374&auto=format&fit=crop", alt: "root kit" },
+    { id: 7, name: "LIMBER Grow Kit", category: "GARDEN", original: 55, discountPrice: 46, img: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1374&auto=format&fit=crop", alt: "LIMBER kit" },
     { id: 8, name: "Birch Polypore", category: "CURIO", original: 22, discountPrice: 18, img: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?q=80&w=1740&auto=format&fit=crop", alt: "polypore" },
     { id: 9, name: "Mushroom Grow Log", category: "BOOK", original: 28, discountPrice: 23, img: "https://images.unsplash.com/photo-1532767153582-b1a0e5145009?q=80&w=2070&auto=format&fit=crop", alt: "log" },
     { id: 10, name: "Fungal Spore Syringe", category: "SPORE", original: 24, discountPrice: 20, img: "https://images.unsplash.com/photo-1584277175808-b8ce9c7c2ecb?q=80&w=1470&auto=format&fit=crop", alt: "syringe" },
@@ -747,9 +747,9 @@
   const cartTotalPriceSpan = document.getElementById('cartTotalPrice');
   const cartCountSpan = document.getElementById('cartCount');
 
-  function saveCart() { localStorage.setItem('ROOT_Cart', JSON.stringify(cart)); }
+  function saveCart() { localStorage.setItem('LIMBER_Cart', JSON.stringify(cart)); }
   function loadCart() {
-    const saved = localStorage.getItem('ROOT_Cart');
+    const saved = localStorage.getItem('LIMBER_Cart');
     if (saved) { cart = JSON.parse(saved); }
     renderCartUI();
     updateCartCount();
@@ -806,7 +806,7 @@
     else cart.push({id:prod.id, name:prod.name, price:prod.discountPrice, quantity:1, img:prod.img});
     renderCartUI();
     const btn = document.querySelector(`.add-btn-${pid}`);
-    if(btn){ let old = btn.innerText; btn.innerText="✓ ROOTED"; setTimeout(()=>btn.innerText=old,700);}
+    if(btn){ let old = btn.innerText; btn.innerText="✓ LIMBERED"; setTimeout(()=>btn.innerText=old,700);}
     cartOverlay.classList.add('active');
   }
 
@@ -821,7 +821,7 @@
       card.innerHTML=`
         <div class="tile-img">
           <img src="${p.img}" alt="${p.alt||p.name}" loading="lazy">
-          <div class="quick-add"><button class="add-btn-${p.id} add-to-cart-btn" data-id="${p.id}">✦ ADD TO ROOT</button></div>
+          <div class="quick-add"><button class="add-btn-${p.id} add-to-cart-btn" data-id="${p.id}">✦ ADD TO LIMBER</button></div>
         </div>
         <div class="product-info">
           <div class="product-details"><h4>${p.category}</h4><h3>${p.name}</h3></div>
@@ -834,7 +834,7 @@
 
   // theme
   function initTheme(){
-    const stored = localStorage.getItem('ROOT_theme');
+    const stored = localStorage.getItem('LIMBER_theme');
     const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     let theme = stored || (systemDark ? 'dark' : 'light');
     document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'mycelium' : 'light');
@@ -847,7 +847,7 @@
     const curr = document.documentElement.getAttribute('data-theme');
     const next = curr === 'mycelium' ? 'light' : 'mycelium';
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('ROOT_theme', next === 'mycelium' ? 'dark' : 'light');
+    localStorage.setItem('LIMBER_theme', next === 'mycelium' ? 'dark' : 'light');
     const toggleBtn = document.getElementById('themeToggle');
     if(toggleBtn) toggleBtn.textContent = next === 'mycelium' ? '☀️' : '🌙';
   }
